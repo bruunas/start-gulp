@@ -1,0 +1,10 @@
+// large: 1024px
+// medium: 768px
+// small: 420px
+
+// @media #{$variável_breakpoint} {}
+
+$full: "only screen and (min-width: 1025px)";
+$desktop: "only screen and (max-width: 1024px)";
+$tablet: "only screen and (max-width: 768px)";
+$mobile: "only screen and (max-width: 420px)";
